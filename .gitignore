@@ -1,0 +1,18 @@
+# Environment variables and secrets
+.env
+.env.local
+*.env
+
+# Python cache & build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+.venv/
