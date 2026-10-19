@@ -1,0 +1,20 @@
+
+# Test that our notebook can write data to the Lakehouse
+
+from datetime import datetime, timezone
+
+test_data = [
+    ("test001", "My first YouTube test video", 1000),
+    ("test002", "My second YouTube test video", 2500)
+]
+
+columns = ["video_id", "title", "view_count"]
+
+# Create a small Spark table from our sample data
+test_df = spark.createDataFrame(test_data, columns)
+
+# Save the table in the Lakehouse
+test_df.write.format("delta").mode("overwrite").saveAsTable("test_youtube_videos")
+
+# Display the saved data
+display(spark.read.table("test_youtube_videos"))
