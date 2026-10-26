@@ -177,6 +177,9 @@ This project showcases practical experience in:
 
 ---
 
+Data limitations
+This project uses publicly available YouTube video data. It does not represent all YouTube viewing activity or reconstruct historical popularity rankings that were not collected at the time.
+
 ### Future Enhancements
 
 Potential improvements include scheduled ingestion, incremental data processing, historical trend analysis, automated data-quality monitoring and expanded dashboard interactivity.
