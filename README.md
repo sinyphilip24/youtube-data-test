@@ -90,7 +90,8 @@ Compare average overall video views for videos appearing in the trending samples
 
 ### Dashboard Preview
 
-![Power BI Dashboard](screenshots/dashboard_overview.png)
+<img width="777" height="441" alt="image" src="https://github.com/user-attachments/assets/5bbfbc80-c75b-4cb8-9687-dfb13733c967" />
+
 
 ## 🔎 Key Insights
 
