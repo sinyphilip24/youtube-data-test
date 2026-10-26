@@ -115,7 +115,7 @@ These insights describe the collected dataset and should not be interpreted as p
 | Power BI | Dashboard and reporting |
 | GitHub | Source control and project documentation |
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```text
 youtube-trends-fabric-analytics/
@@ -137,7 +137,7 @@ youtube-trends-fabric-analytics/
 
 *File names may differ slightly from the example structure.*
 
-## 🧪 Data Quality and Validation
+##  Data Quality and Validation
 
 The pipeline incorporates validation checks covering:
 
@@ -150,7 +150,7 @@ The pipeline incorporates validation checks covering:
 
 These checks help improve the reliability of the datasets used for reporting.
 
-## ⚠️ Dataset Scope and Limitations
+##  Dataset Scope and Limitations
 
 This project uses a sample of trending-video observations collected through the YouTube Data API.
 
@@ -160,7 +160,7 @@ This project uses a sample of trending-video observations collected through the 
 - Engagement rate is a custom analytical metric, not an official YouTube engagement measure.
 - API quotas and collection timing affect the available sample.
 
-## 🚀 What This Project Demonstrates
+##  What This Project Demonstrates
 
 This project showcases practical experience in:
 
